@@ -2,6 +2,11 @@
 
 ![NexTask Cover](./screenshots/dashboard.png)
 
+## 🌐 Live Demo
+- **Frontend:** https://task-ethara-xi.vercel.app
+- **Backend API:** https://taskethara-1.onrender.com
+
+  
 A modern, production-ready full-stack web application designed for agile teams to manage projects and tasks efficiently. NexTask is built with a focus on clean architecture, beautiful UI, and scalable backend design.
 
 ## 📸 Screenshots
@@ -78,7 +83,8 @@ The backend is currently configured to use an H2 in-memory database for immediat
 
 ## 🔑 Demo Credentials
 - **Admin**: `admin@ethara.com` / `password`
-- **Member**: `alice@ethara.com` / `password`
+- **Manager**: `manager@ethara.com` / `password`
+- **Employee**: `employee@ethara.com` / `password`
 
 ---
 
