@@ -54,7 +54,7 @@ public class AuthService {
         }
 
         // Create new user's account
-        Role role = Role.ROLE_MEMBER;
+        Role role = Role.ROLE_EMPLOYEE;
         if (signUpRequest.getRole() != null && signUpRequest.getRole().equalsIgnoreCase("ADMIN")) {
             role = Role.ROLE_ADMIN;
         }
