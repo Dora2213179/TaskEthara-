@@ -4,7 +4,7 @@
 
 ## 🌐 Live Demo
 - **Frontend:** https://task-ethara-xi.vercel.app
-- **Backend API:** https://taskethara-1.onrender.com
+- **Backend API:** https://taskethara-1.onrender.com/api
 
   
 A modern, production-ready full-stack web application designed for agile teams to manage projects and tasks efficiently. NexTask is built with a focus on clean architecture, beautiful UI, and scalable backend design.
