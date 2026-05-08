@@ -1,7 +1,11 @@
 import axios from 'axios';
 
+const BACKEND_URL = import.meta.env.PROD 
+  ? 'https://taskethara-1.onrender.com/api' 
+  : 'http://localhost:8081/api';
+
 const api = axios.create({
-  baseURL: 'http://localhost:8081/api',
+  baseURL: BACKEND_URL,
   headers: {
     'Content-Type': 'application/json',
   },
