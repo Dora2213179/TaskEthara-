@@ -2,7 +2,7 @@ import { useState, useEffect, useContext } from 'react';
 import { AuthContext } from '../context/AuthContext';
 import api from '../api/api';
 import { PieChart, Pie, Cell, Tooltip, ResponsiveContainer, BarChart, Bar, XAxis, YAxis, CartesianGrid } from 'recharts';
-import { CheckCircle2, Clock, ListTodo, AlertCircle, LayoutDashboard, Loader2 } from 'lucide-react';
+import { CheckCircle2, Clock, ListTodo, AlertCircle, LayoutDashboard } from 'lucide-react';
 
 export default function Dashboard() {
   const { user } = useContext(AuthContext);
